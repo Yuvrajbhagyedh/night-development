@@ -6,11 +6,12 @@
 }
 
 body {
+   
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(135deg, #2b5876, #4e4376);
+    background: white;
 }
 
 .container {
@@ -27,7 +28,7 @@ body {
     border-radius: 12px;
     backdrop-filter: blur(10px);
     box-shadow: 0 8px 20px rgba(0,0,0,0.3);
-    color: white;
+     color: black;
 }
 
 .auth-box h2 {
@@ -65,7 +66,7 @@ button {
     background: #ff7b00;
     border: none;
     border-radius: 6px;
-    color: white;
+    color: rgb(255, 255, 255);
     font-weight: bold;
     cursor: pointer;
     transition: 0.3s;
@@ -82,10 +83,24 @@ button:hover {
 }
 
 .extra-links a {
-    color: #ffd700;
+    color: #c56f06;
     text-decoration: none;
 }
 
 .extra-links a:hover {
     text-decoration: underline;
+}
+.message {
+    margin-bottom: 15px;
+    font-size: 14px;
+    text-align: center;
+    min-height: 20px;
+}
+
+.message.error {
+    color: #ff4d4d;
+}
+
+.message.success {
+    color: #00ff99;
 }
