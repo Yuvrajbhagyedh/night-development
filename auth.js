@@ -21,7 +21,7 @@ if (form) {
         // LOGIN PAGE (no fullname field)
         if (!fullNameInput) {
 
-            const email = emailInput.value;
+            f
             const password = passwordInput.value;
 
             const validUser = users.find(user =>
